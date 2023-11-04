@@ -7,8 +7,7 @@ RUN apt-get upgrade -y
 # Installs python3 and python3-pip
 RUN apt-get install -y python3 python3-pip
 # Installs Flask
-RUN pip3 install flask
-# Installs Flask-Cors
+RUN pip3 install Flask
 RUN pip3 install flask-cors
 # Working directory
 WORKDIR /app
